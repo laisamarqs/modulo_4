@@ -1,0 +1,26 @@
+Vamos analisar cada uma das assinaturas de método e identificar
+qual princípio de código limpo elas estão ferindo:
+
+private void somaNumeros(int a, int b, int c, int d, int e, int f)
+
+Problema: Esta assinatura de método está violando o princípio da nomenclatura adequada. Os nomes das variáveis
+(a, b, c, d, e, f) não fornecem informações significativas sobre o propósito ou o conteúdo dessas variáveis.
+Isso torna difícil para outros desenvolvedores entenderem o que o método faz apenas olhando para sua assinatura.
+
+private void oPaiTaOn()
+
+Problema: Esta assinatura de método está violando o princípio da nomenclatura adequada.
+O nome do método (oPaiTaOn) é obscuro e não fornece nenhuma pista sobre o que o método faz.
+Nomes de métodos devem ser descritivos e indicar claramente sua finalidade.
+
+private double checaSaldoEAtualiza(long userld, double value)
+
+Problema: Esta assinatura de método está violando o princípio da separação de responsabilidades.
+O método parece estar fazendo duas coisas distintas: checar o saldo e atualizá-lo.
+Seria preferível dividir essas responsabilidades em métodos separados para manter
+o código mais modular e coeso.
+
+Em resumo, cada uma das assinaturas de método viola um princípio diferente de código limpo:
+a primeira e a segunda violam o princípio da nomenclatura adequada,
+enquanto a terceira viola o princípio da separação de responsabilidades.
+A correção desses problemas melhoraria a legibilidade, manutenção e qualidade geral do código.

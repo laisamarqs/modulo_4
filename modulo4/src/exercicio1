@@ -1,0 +1,22 @@
+Os princípios de código limpo são importantes porque contribuem para a legibilidade,
+manutenção e extensibilidade do código.
+
+
+Usar nomenclatura adequada: Escolher nomes significativos para variáveis, funções, classes e outros elementos
+do código facilita a compreensão do que o código faz. Nomes bem escolhidos tornam o código mais legível e autoexplicativo,
+reduzindo a necessidade de comentários excessivos e ajudando os desenvolvedores
+a entenderem o propósito de cada parte do código mais rapidamente.
+
+Resolver os problemas na causa raiz: Em vez de simplesmente corrigir os sintomas de um problema,
+é importante identificar e resolver a causa raiz. Isso ajuda a evitar que os problemas ressurjam no futuro e
+promove um código mais robusto e confiável. Além disso, resolver a causa raiz pode levar a soluções
+mais elegantes e eficientes.
+
+Seguir a política do escoteiro: Este princípio incentiva os desenvolvedores a deixarem o código mais limpo do que o encontraram.
+Ao fazer pequenas melhorias sempre que trabalham em uma parte do código, os desenvolvedores gradualmente
+melhoram a qualidade geral do código. Isso ajuda a evitar a
+acumulação de dívidas técnicas e torna a manutenção do código mais fácil no longo prazo.
+
+Em resumo, seguir esses princípios ajuda a produzir código mais legível,
+confiável, e fácil de manter e estender, o que é essencial para o sucesso de
+um projeto de desenvolvimento de software.
